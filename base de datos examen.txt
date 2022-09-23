@@ -1,0 +1,16 @@
+create database CURP;
+drop database pokemon;
+use CURP;
+
+create table Datos(
+	id bigint PRIMARY KEY auto_increment,
+    Nombre varchar(30),
+    Primer_Ape varchar(30),
+    Segundo_Ape varchar(30),
+    Sexo varchar (10),
+    Estado_Nac varchar (50),
+    Fecha_Nac varchar (20),
+    CURP varchar(15)
+);
+
+drop table Datos;
